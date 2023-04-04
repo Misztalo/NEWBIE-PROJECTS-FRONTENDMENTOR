@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Misztalo/summary-component)
+- Solution URL: [Solution](https://github.com/Misztalo/NEWBIE-PROJECTS-FRONTENDMENTOR/tree/main/summary-component-main)
 
 - Live Site URL: [Live](https://misztalo.github.io/NEWBIE-PROJECTS-FRONTENDMENTOR/summary-component-main/)
 
