@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="container__header">
+
+                <div class="dayInput input">
+                    <label for="day" class="dayLabel">Day</label>
+                    <input type="text" name="day" id="day" placeholder="DD" maxlength="2">
+                    <p class="dayPerror errorP"></p>
+                </div>
+
+                <div class="monthInput input">
+                    <label for="month" class="monthLabel">Month</label>
+                    <input type="text" name="month" id="month" placeholder="MM" maxlength="2">
+                    <p class="monthPerror errorP"></p>
+                </div>
+
+                <div class="yearInput input">
+                    <label for="year" class="yearLabel">Year</label>
+                    <input type="text" name="year" id="year" placeholder="YYYY" maxlength="4">
+                    <p class="yearPerror errorP"></p>
+                </div>
+
+            </div>
+
+            <div class="container__line">
+                <div class="line"></div>
+                <a class="line-button"></a>
+            </div>
+
+            <div class="container__body">
+                <div class="years cb">
+                    <p class="yearsNumber">--</p> years
+                </div>
+                <div class="months cb">
+                    <p class="monthsNumber">--</p> months
+                </div>
+                <div class="days cb">
+                    <p class="daysNumber">--</p>days
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/Misztalo" target="_blank">Misztal</a>.
+    </footer>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
